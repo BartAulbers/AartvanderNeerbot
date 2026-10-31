@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+
+# Persistent storage & browser profiles
+data/
+*.png
+*.html
+*.json
+!requirements.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db

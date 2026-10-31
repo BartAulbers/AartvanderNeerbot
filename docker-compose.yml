@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  aartvanderneerbot:
+    build: .
+    container_name: aartvanderneerbot
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - TZ=Europe/Amsterdam
+    volumes:
+      - ./data:/app/data
